@@ -1,0 +1,190 @@
+{
+  "uid" : "b28672a2ffe9f9b0",
+  "name" : "test_delivery",
+  "fullName" : "scripts.test_delivery.TestDelivery#test_delivery",
+  "historyId" : "3e8f3c57502f7f0f03f6fb4a60f6348f",
+  "time" : {
+    "start" : 1597136364779,
+    "stop" : 1597136364779,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: module 'te_api' has no attribute 'PayOrder'",
+  "statusTrace" : "self = <py_t1.scripts.test_delivery.TestDelivery object at 0x00000299CB1BDB48>\n\n>   ???\nE   AttributeError: module 'te_api' has no attribute 'PayOrder'\n\nD:\\Jenkins\\py_t1\\py_t1\\scripts\\test_delivery.py:10: AttributeError",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1597136364427,
+      "stop" : 1597136364427,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1597136364780,
+      "stop" : 1597136364780,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1597136364350,
+      "stop" : 1597136364427,
+      "duration" : 77
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1597136364427,
+      "stop" : 1597136364427,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1597136364427,
+      "stop" : 1597136364427,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_delivery"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDelivery"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-LIVE0232"
+  }, {
+    "name" : "thread",
+    "value" : "17108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_delivery"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e60f74e9d3c9a012",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'te_api' has no attribute 'PayOrder'",
+      "time" : {
+        "start" : 1597136269050,
+        "stop" : 1597136269050,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9516fb34b18bbb1a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'te_api' has no attribute 'PayOrder'",
+      "time" : {
+        "start" : 1597135793048,
+        "stop" : 1597135793048,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "feb92756b3bf5913",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'te_api' has no attribute 'PayOrder'",
+      "time" : {
+        "start" : 1597134853729,
+        "stop" : 1597134853729,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1a35233375202df",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'te_api' has no attribute 'PayOrder'",
+      "time" : {
+        "start" : 1597133645525,
+        "stop" : 1597133645525,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "96a3fe394cd16ac5",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'te_api' has no attribute 'PayOrder'",
+      "time" : {
+        "start" : 1597133535657,
+        "stop" : 1597133535657,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6a41b300e30dc87d",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'te_api' has no attribute 'PayOrder'",
+      "time" : {
+        "start" : 1597133275701,
+        "stop" : 1597133275701,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b28672a2ffe9f9b0.json",
+  "parameterValues" : [ ]
+}

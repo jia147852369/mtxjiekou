@@ -1,0 +1,204 @@
+{
+  "uid" : "c5d0ebd998ec1667",
+  "name" : "test_add_cart",
+  "fullName" : "scripts.test_cart.TestCart#test_add_cart",
+  "historyId" : "2e7fe7228d31a313e581f5fd58eccb16",
+  "time" : {
+    "start" : 1597144642422,
+    "stop" : 1597144643282,
+    "duration" : 860
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1597144642203,
+      "stop" : 1597144642298,
+      "duration" : 95
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1597144642298,
+      "stop" : 1597144642298,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1597144642422,
+      "stop" : 1597144642422,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1597144642298,
+      "stop" : 1597144642298,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1597144642298,
+      "stop" : 1597144642298,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d1c8404b2825c496",
+      "name" : "log",
+      "source" : "d1c8404b2825c496.txt",
+      "type" : "text/plain",
+      "size" : 53
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_cart"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCart"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-LIVE0232"
+  }, {
+    "name" : "thread",
+    "value" : "18876-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7d089e414adcc7bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597144209275,
+        "stop" : 1597144210307,
+        "duration" : 1032
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "13c60c5dd8cf8922",
+        "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/40/allure/#testresult/13c60c5dd8cf8922",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597142990239,
+          "stop" : 1597142991116,
+          "duration" : 877
+        }
+      }, {
+        "uid" : "59bb765679db3b3c",
+        "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/39/allure/#testresult/59bb765679db3b3c",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'addCartApi' object has no attribute 'HEADERS'",
+        "time" : {
+          "start" : 1597138929409,
+          "stop" : 1597138929603,
+          "duration" : 194
+        }
+      }, {
+        "uid" : "7a77306ee97bd2db",
+        "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/33/allure/#testresult/7a77306ee97bd2db",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'addCartApi' object has no attribute 'HEADERS'",
+        "time" : {
+          "start" : 1597136975999,
+          "stop" : 1597136976305,
+          "duration" : 306
+        }
+      }, {
+        "uid" : "9ce98e68566d97b4",
+        "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/32/allure/#testresult/9ce98e68566d97b4",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'addCartApi' object has no attribute 'HEADERS'",
+        "time" : {
+          "start" : 1597136820580,
+          "stop" : 1597136820757,
+          "duration" : 177
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c5d0ebd998ec1667.json",
+  "parameterValues" : [ ]
+}

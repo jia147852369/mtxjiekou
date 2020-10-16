@@ -1,0 +1,205 @@
+{
+  "uid" : "9d42b22a373c495c",
+  "name" : "test_payorder",
+  "fullName" : "scripts.test_payorder.TestPayOrder#test_payorder",
+  "historyId" : "826d821d3a525cf8bddfaf04d6c9fc25",
+  "time" : {
+    "start" : 1597144646464,
+    "stop" : 1597144647993,
+    "duration" : 1529
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1597144642203,
+      "stop" : 1597144642298,
+      "duration" : 95
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1597144642298,
+      "stop" : 1597144642298,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1597144642298,
+      "stop" : 1597144642298,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1597144642298,
+      "stop" : 1597144642298,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1597144646464,
+      "stop" : 1597144646464,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b8f9e650beaa7306",
+      "name" : "log",
+      "source" : "b8f9e650beaa7306.txt",
+      "type" : "text/plain",
+      "size" : 53
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_payorder"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPayOrder"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-LIVE0232"
+  }, {
+    "name" : "thread",
+    "value" : "18876-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_payorder"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "909e62af91c25f6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597144214344,
+        "stop" : 1597144216695,
+        "duration" : 2351
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "f462744e3722eddb",
+        "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/40/allure/#testresult/f462744e3722eddb",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '订单id有误' == '支付成功'\n  - 支付成功\n  + 订单id有误",
+        "time" : {
+          "start" : 1597142994258,
+          "stop" : 1597142995930,
+          "duration" : 1672
+        }
+      }, {
+        "uid" : "fd0d5b3da9987f9b",
+        "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/39/allure/#testresult/fd0d5b3da9987f9b",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: module 'te_api' has no attribute 'PayOrder'",
+        "time" : {
+          "start" : 1597138930282,
+          "stop" : 1597138930282,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "944c94a360038085",
+        "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/33/allure/#testresult/944c94a360038085",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: module 'te_api' has no attribute 'PayOrder'",
+        "time" : {
+          "start" : 1597136977249,
+          "stop" : 1597136977249,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "7435ad5945e09d60",
+        "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/32/allure/#testresult/7435ad5945e09d60",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: module 'te_api' has no attribute 'PayOrder'",
+        "time" : {
+          "start" : 1597136821489,
+          "stop" : 1597136821489,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9d42b22a373c495c.json",
+  "parameterValues" : [ ]
+}

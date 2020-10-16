@@ -1,0 +1,148 @@
+{
+  "uid" : "cdc28e036b50fd",
+  "name" : "test_add_cart",
+  "fullName" : "scripts.test_cart.TestCart#test_add_cart",
+  "historyId" : "2e7fe7228d31a313e581f5fd58eccb16",
+  "time" : {
+    "start" : 1597133535447,
+    "stop" : 1597133535594,
+    "duration" : 147
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'addCartApi' object has no attribute 'HEADERS'",
+  "statusTrace" : "self = <py_t1.scripts.test_cart.TestCart object at 0x000002143E239948>\n\n>   ???\n\nD:\\Jenkins\\py_t1\\py_t1\\scripts\\test_cart.py:16: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <te_api.addCartApi.addCartApi object at 0x000002143E254AC8>\nsession = <requests.sessions.Session object at 0x000002143E239E48>\n\n    def add_cart(self,session):\n        data = {'goods_id': 1, 'stock': 2}\n        # headers = {'X-Requested-With': 'XMLHttpRequest'}\n>       resp_add = session.post(self.url, data=data, headers=self.HEADERS)\nE       AttributeError: 'addCartApi' object has no attribute 'HEADERS'\n\nte_api\\addCartApi.py:11: AttributeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1597133535334,
+      "stop" : 1597133535334,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1597133535447,
+      "stop" : 1597133535447,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1597133535334,
+      "stop" : 1597133535334,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1597133535334,
+      "stop" : 1597133535334,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1597133535257,
+      "stop" : 1597133535333,
+      "duration" : 76
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'addCartApi' object has no attribute 'HEADERS'",
+    "statusTrace" : "self = <py_t1.scripts.test_cart.TestCart object at 0x000002143E239948>\n\n>   ???\n\nD:\\Jenkins\\py_t1\\py_t1\\scripts\\test_cart.py:16: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <te_api.addCartApi.addCartApi object at 0x000002143E254AC8>\nsession = <requests.sessions.Session object at 0x000002143E239E48>\n\n    def add_cart(self,session):\n        data = {'goods_id': 1, 'stock': 2}\n        # headers = {'X-Requested-With': 'XMLHttpRequest'}\n>       resp_add = session.post(self.url, data=data, headers=self.HEADERS)\nE       AttributeError: 'addCartApi' object has no attribute 'HEADERS'\n\nte_api\\addCartApi.py:11: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7babbd54fd0a0687",
+      "name" : "log",
+      "source" : "7babbd54fd0a0687.txt",
+      "type" : "text/plain",
+      "size" : 53
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_cart"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCart"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-LIVE0232"
+  }, {
+    "name" : "thread",
+    "value" : "19868-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cdc28e036b50fd.json",
+  "parameterValues" : [ ]
+}

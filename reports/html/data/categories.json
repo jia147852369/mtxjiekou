@@ -1,0 +1,65 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'addCartApi' object has no attribute 'HEADERS'",
+      "children" : [ {
+        "name" : "test_add_cart",
+        "uid" : "34a9393532ddab46",
+        "parentUid" : "052d335467c7814e8eaf07be6aa81bed",
+        "status" : "broken",
+        "time" : {
+          "start" : 1597136364570,
+          "stop" : 1597136364715,
+          "duration" : 145
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_order",
+        "uid" : "438c75f722fc99c4",
+        "parentUid" : "052d335467c7814e8eaf07be6aa81bed",
+        "status" : "broken",
+        "time" : {
+          "start" : 1597136365085,
+          "stop" : 1597136365222,
+          "duration" : 137
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "052d335467c7814e8eaf07be6aa81bed"
+    }, {
+      "name" : "AttributeError: module 'te_api' has no attribute 'PayOrder'",
+      "children" : [ {
+        "name" : "test_delivery",
+        "uid" : "b28672a2ffe9f9b0",
+        "parentUid" : "4ca05f1ce850f02f028169457017fe2e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1597136364779,
+          "stop" : 1597136364779,
+          "duration" : 0
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_payorder",
+        "uid" : "c2d835d860c2463d",
+        "parentUid" : "4ca05f1ce850f02f028169457017fe2e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1597136365232,
+          "stop" : 1597136365232,
+          "duration" : 0
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4ca05f1ce850f02f028169457017fe2e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

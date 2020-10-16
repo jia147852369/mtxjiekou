@@ -1,0 +1,29 @@
+[ {
+  "buildOrder" : 40,
+  "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/40/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 5809
+  }
+}, {
+  "buildOrder" : 39,
+  "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/39/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 1024
+  }
+}, {
+  "buildOrder" : 33,
+  "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/33/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 1406
+  }
+}, {
+  "buildOrder" : 32,
+  "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/32/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 1048
+  }
+} ]

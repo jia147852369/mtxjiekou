@@ -1,0 +1,408 @@
+{
+  "d5137cd591036d4782c31d50c6b07d7d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "259485c34d277929",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/45/allure/#testresult/259485c34d277929",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597144645197,
+        "stop" : 1597144646461,
+        "duration" : 1264
+      }
+    }, {
+      "uid" : "a5cf3a0d798f6583",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/40/allure/#testresult/a5cf3a0d798f6583",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597142992815,
+        "stop" : 1597142994252,
+        "duration" : 1437
+      }
+    }, {
+      "uid" : "5a69dee380523cee",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/39/allure/#testresult/5a69dee380523cee",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'addCartApi' object has no attribute 'HEADERS'",
+      "time" : {
+        "start" : 1597138930088,
+        "stop" : 1597138930275,
+        "duration" : 187
+      }
+    }, {
+      "uid" : "b69da8ca6565bad3",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/33/allure/#testresult/b69da8ca6565bad3",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'addCartApi' object has no attribute 'HEADERS'",
+      "time" : {
+        "start" : 1597136976930,
+        "stop" : 1597136977227,
+        "duration" : 297
+      }
+    }, {
+      "uid" : "6a1355921a9b38ac",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/32/allure/#testresult/6a1355921a9b38ac",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'addCartApi' object has no attribute 'HEADERS'",
+      "time" : {
+        "start" : 1597136821295,
+        "stop" : 1597136821476,
+        "duration" : 181
+      }
+    } ]
+  },
+  "881b46f1181cc3f462b8e36102bd6316" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "c758416803b624b3",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/45/allure/#testresult/c758416803b624b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597144645041,
+        "stop" : 1597144645193,
+        "duration" : 152
+      }
+    }, {
+      "uid" : "fd447cf2a78d1512",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/40/allure/#testresult/fd447cf2a78d1512",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597142992672,
+        "stop" : 1597142992808,
+        "duration" : 136
+      }
+    }, {
+      "uid" : "ec7b7313d443d6c",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/39/allure/#testresult/ec7b7313d443d6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597138929904,
+        "stop" : 1597138930084,
+        "duration" : 180
+      }
+    }, {
+      "uid" : "2a0f66244f79f215",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/33/allure/#testresult/2a0f66244f79f215",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597136976614,
+        "stop" : 1597136976921,
+        "duration" : 307
+      }
+    }, {
+      "uid" : "746bf117a00f6e18",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/32/allure/#testresult/746bf117a00f6e18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597136821073,
+        "stop" : 1597136821280,
+        "duration" : 207
+      }
+    } ]
+  },
+  "52d2ed7d5d988c4dd185554b8f65874e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "33af5d46da613464",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/45/allure/#testresult/33af5d46da613464",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597144642300,
+        "stop" : 1597144642416,
+        "duration" : 116
+      }
+    }, {
+      "uid" : "cb662f52b1086bcc",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/40/allure/#testresult/cb662f52b1086bcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597142990121,
+        "stop" : 1597142990235,
+        "duration" : 114
+      }
+    }, {
+      "uid" : "605e4dad56e07956",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/39/allure/#testresult/605e4dad56e07956",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597138929258,
+        "stop" : 1597138929404,
+        "duration" : 146
+      }
+    }, {
+      "uid" : "caf8d509fdd91e7c",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/33/allure/#testresult/caf8d509fdd91e7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597136975843,
+        "stop" : 1597136975987,
+        "duration" : 144
+      }
+    }, {
+      "uid" : "630eb3751911f528",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/32/allure/#testresult/630eb3751911f528",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597136820441,
+        "stop" : 1597136820576,
+        "duration" : 135
+      }
+    } ]
+  },
+  "2e7fe7228d31a313e581f5fd58eccb16" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "c5d0ebd998ec1667",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/45/allure/#testresult/c5d0ebd998ec1667",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597144642422,
+        "stop" : 1597144643282,
+        "duration" : 860
+      }
+    }, {
+      "uid" : "13c60c5dd8cf8922",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/40/allure/#testresult/13c60c5dd8cf8922",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597142990239,
+        "stop" : 1597142991116,
+        "duration" : 877
+      }
+    }, {
+      "uid" : "59bb765679db3b3c",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/39/allure/#testresult/59bb765679db3b3c",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'addCartApi' object has no attribute 'HEADERS'",
+      "time" : {
+        "start" : 1597138929409,
+        "stop" : 1597138929603,
+        "duration" : 194
+      }
+    }, {
+      "uid" : "7a77306ee97bd2db",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/33/allure/#testresult/7a77306ee97bd2db",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'addCartApi' object has no attribute 'HEADERS'",
+      "time" : {
+        "start" : 1597136975999,
+        "stop" : 1597136976305,
+        "duration" : 306
+      }
+    }, {
+      "uid" : "9ce98e68566d97b4",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/32/allure/#testresult/9ce98e68566d97b4",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'addCartApi' object has no attribute 'HEADERS'",
+      "time" : {
+        "start" : 1597136820580,
+        "stop" : 1597136820757,
+        "duration" : 177
+      }
+    } ]
+  },
+  "161da9f82071fb37eae9201ae900aa4f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "6f20d6d72bbf1f35",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/45/allure/#testresult/6f20d6d72bbf1f35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597144644902,
+        "stop" : 1597144645037,
+        "duration" : 135
+      }
+    }, {
+      "uid" : "e95940bcec539bb0",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/40/allure/#testresult/e95940bcec539bb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597142992523,
+        "stop" : 1597142992667,
+        "duration" : 144
+      }
+    }, {
+      "uid" : "995dd24d2fe69cc0",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/39/allure/#testresult/995dd24d2fe69cc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597138929675,
+        "stop" : 1597138929899,
+        "duration" : 224
+      }
+    }, {
+      "uid" : "3bf81f751eaeba31",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/33/allure/#testresult/3bf81f751eaeba31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597136976387,
+        "stop" : 1597136976610,
+        "duration" : 223
+      }
+    }, {
+      "uid" : "94bd8ae5e6b262ee",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/32/allure/#testresult/94bd8ae5e6b262ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597136820830,
+        "stop" : 1597136821065,
+        "duration" : 235
+      }
+    } ]
+  },
+  "826d821d3a525cf8bddfaf04d6c9fc25" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "9d42b22a373c495c",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/45/allure/#testresult/9d42b22a373c495c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597144646464,
+        "stop" : 1597144647993,
+        "duration" : 1529
+      }
+    }, {
+      "uid" : "f462744e3722eddb",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/40/allure/#testresult/f462744e3722eddb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '订单id有误' == '支付成功'\n  - 支付成功\n  + 订单id有误",
+      "time" : {
+        "start" : 1597142994258,
+        "stop" : 1597142995930,
+        "duration" : 1672
+      }
+    }, {
+      "uid" : "fd0d5b3da9987f9b",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/39/allure/#testresult/fd0d5b3da9987f9b",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'te_api' has no attribute 'PayOrder'",
+      "time" : {
+        "start" : 1597138930282,
+        "stop" : 1597138930282,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "944c94a360038085",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/33/allure/#testresult/944c94a360038085",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'te_api' has no attribute 'PayOrder'",
+      "time" : {
+        "start" : 1597136977249,
+        "stop" : 1597136977249,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7435ad5945e09d60",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/32/allure/#testresult/7435ad5945e09d60",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'te_api' has no attribute 'PayOrder'",
+      "time" : {
+        "start" : 1597136821489,
+        "stop" : 1597136821489,
+        "duration" : 0
+      }
+    } ]
+  },
+  "3e8f3c57502f7f0f03f6fb4a60f6348f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "260fcca96c36d66b",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/45/allure/#testresult/260fcca96c36d66b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597144643287,
+        "stop" : 1597144644898,
+        "duration" : 1611
+      }
+    }, {
+      "uid" : "18d34b9d0ed1024d",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/40/allure/#testresult/18d34b9d0ed1024d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '订单id有误' == '发货成功'\n  - 发货成功\n  + 订单id有误",
+      "time" : {
+        "start" : 1597142991121,
+        "stop" : 1597142992457,
+        "duration" : 1336
+      }
+    }, {
+      "uid" : "1db87a54fd00870f",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/39/allure/#testresult/1db87a54fd00870f",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'te_api' has no attribute 'PayOrder'",
+      "time" : {
+        "start" : 1597138929668,
+        "stop" : 1597138929668,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "12595898c35fa34c",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/33/allure/#testresult/12595898c35fa34c",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'te_api' has no attribute 'PayOrder'",
+      "time" : {
+        "start" : 1597136976380,
+        "stop" : 1597136976380,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2cabecd30689f720",
+      "reportUrl" : "http://192.168.2.27:8080/jenkins/job/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95-%E6%8E%A5%E5%8F%A3/32/allure/#testresult/2cabecd30689f720",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'te_api' has no attribute 'PayOrder'",
+      "time" : {
+        "start" : 1597136820823,
+        "stop" : 1597136820823,
+        "duration" : 0
+      }
+    } ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_admin_login",
+    "uid" : "99a1a6dadeef7196",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597136364429,
+      "stop" : 1597136364563,
+      "duration" : 134
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_add_cart",
+    "uid" : "34a9393532ddab46",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1597136364570,
+      "stop" : 1597136364715,
+      "duration" : 145
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_delivery",
+    "uid" : "b28672a2ffe9f9b0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1597136364779,
+      "stop" : 1597136364779,
+      "duration" : 0
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login",
+    "uid" : "4841a70ef6f76fa2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597136364789,
+      "stop" : 1597136364933,
+      "duration" : 144
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login",
+    "uid" : "74c2589b16776a8e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597136364941,
+      "stop" : 1597136365080,
+      "duration" : 139
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_order",
+    "uid" : "438c75f722fc99c4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1597136365085,
+      "stop" : 1597136365222,
+      "duration" : 137
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_payorder",
+    "uid" : "c2d835d860c2463d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1597136365232,
+      "stop" : 1597136365232,
+      "duration" : 0
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  } ]
+}
